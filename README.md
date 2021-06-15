@@ -1,10 +1,5 @@
 # A-Search-for-Sliding-Puzzle
 The program composed of the class puzzle, class search and a couple of global variables, including the goal state, alphabetical sequence values, the x-axis and y-axis. The program would first initialize with the initial state puzzle and set the goal state puzzle as the target, then perform a* search to find a path and list the visited tiles.
-	goalState = ["0", "1", "2", "3", "4", "5", "6", "7", "8"] #values of puzzle
-	abcdefghi = [["A", "B", "C"], ["D", "E", "F"], ["G", "H", "I"]] #predefined 2d array
-	xAxis = [1, 0, -1, 0]
-	yAxis = [0, 1, 0, -1] 
-	n = 3 #number of column
 
 # Class Puzzle
 Puzzle is referring to the state of the game. It contains the node, reference to the parent node, value, tier, and heuristic score. It also includes some get/set function to return level, the state, and the heuristic score.
